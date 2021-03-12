@@ -1,0 +1,6 @@
+/Data/Photos/**
+/Data/Videos/**
+*.mp4
+**/__pycache__/**
+
+/Code/take_picture.py
