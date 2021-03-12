@@ -42,7 +42,7 @@ def merge_video(folder, overwrite = 'n'):
                 os.system(f'ffmpeg -{overwrite} -f concat -safe 0 -i {tmp} -c copy {folder}/merged.mp4')
 
                 # Create cropped video
-                os.system(f'ffmpeg -{overwrite} -f concat -safe 0 -i {tmp} -filter:v "crop=1800:1000:850:1200" -crf 18 {folder}/merged-cropped.mp4')
+                os.system(f'ffmpeg -{overwrite} -f concat -safe 0 -i {tmp} -filter:v "crop=1800:1200:900:1000" -crf 18 {folder}/merged-cropped.mp4')
             finally:
                 os.remove(tmp)
 

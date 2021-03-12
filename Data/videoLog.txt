@@ -8,3 +8,6 @@
 2021-03-12 00:14:42.223754: Time to make videos: 1232.04245 in seconds.
 2021-03-12 00:56:13.496559: Time to make videos: 229.630794 in seconds.
 2021-03-12 11:28:00.015282: Time to make videos: 84.847278 in seconds.
+2021-03-12 12:11:17.396614: Time to make videos: 15.23707 in seconds.
+2021-03-12 12:15:49.650229: Time to make videos: 7.095497 in seconds.
+2021-03-12 12:19:25.787911: Time to make videos: 7.223334 in seconds.
