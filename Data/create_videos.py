@@ -6,16 +6,19 @@ from helper import parseTimeFromFolder
 
 from PIL import Image, ImageStat
 import numpy as np
+from numba import jit
+
+from multiprocessing import Pool
 
 def brightness( im_file ):
    im = Image.open(im_file).convert('L')
    stat = ImageStat.Stat(im)
    return stat.mean[0]
 
+@jit(nopython=True)
 def calcGamma(brightness):
-    floor = 50
-    ceiling = 100
-
+    floor = 80
+    ceiling = 120
     if brightness < floor:
         gamma = np.log( brightness / 255 ) / np.log(floor/255)
     elif brightness > ceiling:
@@ -24,6 +27,7 @@ def calcGamma(brightness):
         gamma = 1.0
     return gamma
 
+@jit(nopython=True)
 def calcSaturation(brightness):
     floor = 50
     if brightness < floor:
@@ -62,15 +66,16 @@ def createVideoFromFolder(pictureFolderPath, overwrite=False):
             if len(os.listdir(f'./{pathBuilder}')) == 0 or overwrite == True:
                 # build manifest file, and gather image metrics
                 tmp = hex(hash(datetime.now())).split('x')[1]
-                file_brightness = np.zeros(len(files))
-
+                
                 files.sort(key= lambda x: x['createtime'])
                 with open(f'{tmp}', 'w') as manifest:
                     for i, f in enumerate(files):
                         print(f"file \'{f['path']}\'", file=manifest)
-                        file_brightness[i] = brightness(f['path'])
                 
                 try:
+                    with Pool(8) as p:
+                        file_brightness = p.map(brightness, [f['path'] for f in files])
+
                     # Calculate time
                     filmDate = parseTimeFromFolder(directory)
                     
@@ -79,8 +84,9 @@ def createVideoFromFolder(pictureFolderPath, overwrite=False):
                         avg_brightness = np.mean(file_brightness)
                         gamma_offset = calcGamma(avg_brightness)
                         saturation_offset = calcSaturation(avg_brightness)
-                        print(f'Creating video {pathBuilder}. Gamma offset: {gamma_offset:0.0f}. Saturation offset: {saturation_offset:0.0f}')
-                        os.system(f'ffmpeg -r 25 -f concat -safe 0 -i {tmp} -c:v libx264 -crf 18 -vf fps=25,eq=gamma={gamma_offset:0.0f}:saturation={saturation_offset:0.0f} ./{pathBuilder}/{int(time.mktime(datetime.now().timetuple()))}.mp4')
+                        print(f'Image analysis: brightness = {avg_brightness}')
+                        print(f'Creating video {pathBuilder}. Gamma offset: {gamma_offset}. Saturation offset: {saturation_offset}')
+                        os.system(f'ffmpeg -r 25 -f concat -safe 0 -i {tmp} -c:v libx264 -crf 18 -vf fps=25,eq=gamma={gamma_offset}:saturation={saturation_offset} ./{pathBuilder}/{int(time.mktime(datetime.now().timetuple()))}.mp4')
                 finally:
                     os.remove(f'{tmp}')
 
