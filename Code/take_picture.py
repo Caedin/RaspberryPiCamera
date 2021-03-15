@@ -68,6 +68,8 @@ month = f'{timestamp.month:02d}'
 day = f'{timestamp.day:02d}'
 hour = f'{timestamp.hour:02d}'
 filetype = 'jpg'
+brightness_floor = 80
+brightness_ceiling = 150
 
 def take_picture(pathList, fileName = None, shutterspeed = None):
     # Check directory exists
@@ -108,7 +110,7 @@ try:
         avg_brightness = brightness(pic)
         print(f'Brightness: {avg_brightness}')
 
-        if avg_brightness > 50 and avg_brightness < 150:
+        if avg_brightness > brightness_floor and avg_brightness < brightness_ceiling:
             send_picture(imageFolder)
         else:
             def retake_pic(pic, shutterspeed):
@@ -119,10 +121,10 @@ try:
 
             shutterspeed = getShutter()
             pic, avg_brightness = retake_pic(pic, shutterspeed)
-            while avg_brightness < 50 or avg_brightness > 150:
-                if avg_brightness < 50:
+            while avg_brightness < brightness_floor or avg_brightness > brightness_ceiling:
+                if avg_brightness < brightness_floor:
                     shutterspeed *= 1.25
-                elif avg_brightness > 150:
+                elif avg_brightness > brightness_ceiling:
                     shutterspeed /= 1.25
                 pic, avg_brightness = retake_pic(pic, shutterspeed)
 
