@@ -122,21 +122,15 @@ def make_video(videoQueue):
 hist_normalize = False
 shift_gamma = True
 
-with open('./videoLog.txt', 'a+') as log:
-    s = datetime.now()
-    videoQueue = Queue()
+videoQueue = Queue()
+pool = []
+for _ in range(3):
+    p = Process(target=make_video, args=((videoQueue,)))
+    p.daemon = True
+    p.start()
+    pool.append(p)
 
-    pool = []
-    for _ in range(3):
-        p = Process(target=make_video, args=((videoQueue,)))
-        p.daemon = True
-        p.start()
-        pool.append(p)
 
-    s = datetime.now()
-    transform_images('./Photos', videoQueue, overwrite = False)
-
-    for p in pool:
-        p.join()
-
-    print(f'{datetime.now()}: Time to make videos: {(datetime.now() - s).total_seconds()} in seconds.', file=log)
+transform_images('./Photos', videoQueue, overwrite = False)
+for p in pool:
+    p.join()

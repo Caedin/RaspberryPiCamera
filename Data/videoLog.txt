@@ -1,48 +1,50 @@
-2021-03-11 23:31:11.943063: Time to make videos: 17.455734 in seconds.
-2021-03-11 23:41:22.174628: Time to make videos: 28.486554 in seconds.
-2021-03-11 23:47:47.843408: Time to make videos: 37.025023 in seconds.
-2021-03-11 23:48:59.952603: Time to make videos: 36.911366 in seconds.
-2021-03-11 23:50:52.327357: Time to make videos: 37.910926 in seconds.
-2021-03-11 23:51:45.917255: Time to make videos: 37.604811 in seconds.
-2021-03-11 23:53:06.536026: Time to make videos: 37.867218 in seconds.
-2021-03-12 00:14:42.223754: Time to make videos: 1232.04245 in seconds.
-2021-03-12 00:56:13.496559: Time to make videos: 229.630794 in seconds.
-2021-03-12 11:28:00.015282: Time to make videos: 84.847278 in seconds.
-2021-03-12 12:11:17.396614: Time to make videos: 15.23707 in seconds.
-2021-03-12 12:15:49.650229: Time to make videos: 7.095497 in seconds.
-2021-03-12 12:19:25.787911: Time to make videos: 7.223334 in seconds.
-2021-03-12 15:33:31.105648: Time to make videos: 42.27295 in seconds.
-2021-03-12 18:04:13.941263: Time to make videos: 713.789589 in seconds.
-2021-03-12 18:49:19.319526: Time to make videos: 217.441135 in seconds.
-2021-03-12 18:57:32.652391: Time to make videos: 260.423628 in seconds.
-2021-03-12 19:30:07.379899: Time to make videos: 1039.901928 in seconds.
-2021-03-12 20:21:53.674501: Time to make videos: 868.014725 in seconds.
-2021-03-13 02:10:06.722765: Time to make videos: 2196.165244 in seconds.
-2021-03-13 02:44:54.095859: Time to make videos: 1231.6973 in seconds.
-2021-03-13 03:19:02.828931: Time to make videos: 29.913961 in seconds.
-2021-03-13 03:26:24.568127: Time to make videos: 0.076595 in seconds.
-2021-03-13 03:26:41.122663: Time to make videos: 0.002322 in seconds.
-2021-03-13 03:26:46.774194: Time to make videos: 0.4695 in seconds.
-2021-03-13 03:27:16.372684: Time to make videos: 0.480812 in seconds.
-2021-03-13 03:28:35.988222: Time to make videos: 0.930741 in seconds.
-2021-03-13 03:29:22.908073: Time to make videos: 18.057951 in seconds.
-2021-03-13 03:30:35.312913: Time to make videos: 0.978799 in seconds.
-2021-03-13 10:41:56.380847: Time to make videos: 94.484994 in seconds.
-2021-03-13 12:44:02.352843: Time to make videos: 28.655222 in seconds.
-2021-03-13 14:53:40.545260: Time to make videos: 23.093475 in seconds.
-2021-03-13 15:21:36.432149: Time to make videos: 12.095712 in seconds.
-2021-03-13 17:18:03.144943: Time to make videos: 922.299217 in seconds.
-2021-03-13 18:29:41.642872: Time to make videos: 553.306086 in seconds.
-2021-03-13 18:40:58.645711: Time to make videos: 0.752701 in seconds.
-2021-03-13 19:39:10.856037: Time to make videos: 922.343098 in seconds.
-2021-03-13 20:52:38.330827: Time to make videos: 15.606379 in seconds.
-2021-03-13 22:43:52.055670: Time to make videos: 20.606663 in seconds.
-2021-03-14 13:51:43.757259: Time to make videos: 139.237379 in seconds.
-2021-03-14 14:38:06.424168: Time to make videos: 11.443139 in seconds.
-2021-03-14 15:36:19.949154: Time to make videos: 14.777201 in seconds.
-2021-03-14 16:07:50.368842: Time to make videos: 14.192161 in seconds.
-2021-03-14 17:03:47.190550: Time to make videos: 13.960707 in seconds.
-2021-03-14 18:27:16.807727: Time to make videos: 13.946664 in seconds.
-2021-03-14 20:14:49.694994: Time to make videos: 23.136637 in seconds.
-2021-03-14 20:56:58.431861: Time to make videos: 1.109628 in seconds.
-2021-03-14 21:07:44.225655: Time to make videos: 13.980592 in seconds.
+---------- Tue Mar 16 12:45:06 CDT 2021 ----------
+python create_videos.py, Runtime: 0:01.71
+python concatenate_videos.py, Runtime: 5:06.94
+sh speed_up_video.sh 4 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-4x.mp4, Runtime: 0:19.31
+sh speed_up_video.sh 8 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-8x.mp4, Runtime: 0:19.14
+sh speed_up_video.sh 16 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-16x.mp4, Runtime: 0:19.18
+
+---------- Tue Mar 16 13:01:43 CDT 2021 ----------
+python create_videos.py, Runtime: 0:13.37
+python concatenate_videos.py, Runtime: 5:28.46
+sh speed_up_video.sh 4 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-4x.mp4, Runtime: 0:20.36
+sh speed_up_video.sh 8 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-8x.mp4, Runtime: 0:20.22
+sh speed_up_video.sh 16 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-16x.mp4, Runtime: 0:20.28
+
+---------- Tue Mar 16 13:13:30 CDT 2021 ----------
+python create_videos.py, Runtime: 0:01.76
+python concatenate_videos.py, Runtime: 5:32.02
+sh speed_up_video.sh 4 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-4x.mp4, Runtime: 0:20.83
+sh speed_up_video.sh 8 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-8x.mp4, Runtime: 0:20.64
+sh speed_up_video.sh 16 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-16x.mp4, Runtime: 0:20.77
+
+---------- Tue Mar 16 13:24:11 CDT 2021 ----------
+python create_videos.py, Runtime: 0:02.08
+python concatenate_videos.py, Runtime: 6:20.33
+sh speed_up_video.sh 4 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-4x.mp4, Runtime: 0:23.88
+sh speed_up_video.sh 8 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-8x.mp4, Runtime: 0:23.54
+sh speed_up_video.sh 16 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-16x.mp4, Runtime: 0:23.63
+
+---------- Tue Mar 16 15:36:26 CDT 2021 ----------
+python create_videos.py, Runtime: 0:19.86
+python concatenate_videos.py, Runtime: 5:27.10
+sh speed_up_video.sh 4 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-4x.mp4, Runtime: 0:20.10
+sh speed_up_video.sh 8 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-8x.mp4, Runtime: 0:19.69
+sh speed_up_video.sh 16 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-16x.mp4, Runtime: 0:19.74
+
+---------- Tue Mar 16 18:17:29 CDT 2021 ----------
+python create_videos.py, Runtime: 0:27.47
+python concatenate_videos.py, Runtime: 5:47.03
+sh speed_up_video.sh 4 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-4x.mp4, Runtime: 0:20.15
+sh speed_up_video.sh 8 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-8x.mp4, Runtime: 0:20.24
+sh speed_up_video.sh 16 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-16x.mp4, Runtime: 0:19.98
+
+sh speed_up_video.sh 16 ./Videos/2021/03/merged.mp4 merged-16x.mp4, Runtime: 1:29.26
+---------- Tue Mar 16 18:45:21 CDT 2021 ----------
+python create_videos.py, Runtime: 0:01.77
+python concatenate_videos.py, Runtime: 5:43.94
+sh speed_up_video.sh 16 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-16x.mp4, Runtime: 1:14.44
+sh speed_up_video.sh 8 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-8x.mp4, Runtime: 1:43.27
+sh speed_up_video.sh 4 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-4x.mp4, Runtime: 2:14.23
+
