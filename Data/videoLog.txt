@@ -48,3 +48,82 @@ sh speed_up_video.sh 16 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-16
 sh speed_up_video.sh 8 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-8x.mp4, Runtime: 1:43.27
 sh speed_up_video.sh 4 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-4x.mp4, Runtime: 2:14.23
 
+---------- Tue Mar 16 18:55:20 CDT 2021 ----------
+python create_videos.py, Runtime: 0:01.77
+python concatenate_videos.py, Runtime: 5:37.50
+sh speed_up_video.sh 4 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-4x.mp4, Runtime: 1:04.21
+sh speed_up_video.sh 8 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-8x.mp4, Runtime: 0:42.38
+sh speed_up_video.sh 16 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-16x.mp4, Runtime: 0:29.14
+
+---------- Tue Mar 16 20:57:18 CDT 2021 ----------
+python create_videos.py, Runtime: 0:21.95
+python concatenate_videos.py, Runtime: 5:33.29
+sh speed_up_video.sh 4 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-4x.mp4, Runtime: 1:04.82
+sh speed_up_video.sh 8 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-8x.mp4, Runtime: 0:41.36
+sh speed_up_video.sh 16 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-16x.mp4, Runtime: 0:30.06
+
+---------- Tue Mar 16 23:43:16 CDT 2021 ----------
+python create_videos.py, Runtime: 24:43.58
+python concatenate_videos.py, Runtime: 1:43.31
+Command exited with non-zero status 1
+sh speed_up_video.sh 4 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-4x.mp4, Runtime: 0:00.03
+Command exited with non-zero status 1
+sh speed_up_video.sh 8 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-8x.mp4, Runtime: 0:00.03
+Command exited with non-zero status 1
+sh speed_up_video.sh 16 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-16x.mp4, Runtime: 0:00.03
+
+---------- Wed Mar 17 00:30:13 CDT 2021 ----------
+python create_videos.py, Runtime: 0:01.81
+python concatenate_videos.py, Runtime: 0:01.13
+Command exited with non-zero status 1
+sh speed_up_video.sh 4 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-4x.mp4, Runtime: 0:00.03
+Command exited with non-zero status 1
+sh speed_up_video.sh 8 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-8x.mp4, Runtime: 0:00.03
+Command exited with non-zero status 1
+sh speed_up_video.sh 16 20 ./Videos/2021/03/merged-cropped.mp4 merged-cropped-16x.mp4, Runtime: 0:00.03
+
+---------- Wed Mar 17 00:30:51 CDT 2021 ----------
+python create_videos.py, Runtime: 0:01.79
+python concatenate_videos.py, Runtime: 0:01.12
+
+---------- Wed Mar 17 00:43:34 CDT 2021 ----------
+python create_videos.py, Runtime: 0:01.78
+python concatenate_videos.py, Runtime: 0:01.09
+sh speed_up_video.sh 4 20 ./Videos/2021/03/merged.mp4 merged-4x.mp4, Runtime: 4:33.05
+sh speed_up_video.sh 8 20 ./Videos/2021/03/merged.mp4 merged-8x.mp4, Runtime: 3:37.64
+sh speed_up_video.sh 16 20 ./Videos/2021/03/merged.mp4 merged-16x.mp4, Runtime: 2:40.48
+
+---------- Wed Mar 17 09:00:50 CDT 2021 ----------
+python create_videos.py, Runtime: 0:46.46
+python concatenate_videos.py, Runtime: 0:11.87
+sh speed_up_video.sh 4 20 ./Videos/2021/03/merged.mp4 merged-4x.mp4, Runtime: 1:00.83
+sh speed_up_video.sh 8 20 ./Videos/2021/03/merged.mp4 merged-8x.mp4, Runtime: 0:40.19
+sh speed_up_video.sh 16 20 ./Videos/2021/03/merged.mp4 merged-16x.mp4, Runtime: 0:25.49
+
+---------- Wed Mar 17 10:25:30 CDT 2021 ----------
+python create_videos.py, Runtime: 0:08.86
+python concatenate_videos.py, Runtime: 0:01.43
+sh speed_up_video.sh 4 20 ./Videos/2021/03/merged.mp4 merged-4x.mp4, Runtime: 0:54.36
+sh speed_up_video.sh 8 20 ./Videos/2021/03/merged.mp4 merged-8x.mp4, Runtime: 0:34.21
+sh speed_up_video.sh 16 20 ./Videos/2021/03/merged.mp4 merged-16x.mp4, Runtime: 0:24.55
+
+---------- Wed Mar 17 10:28:13 CDT 2021 ----------
+python create_videos.py, Runtime: 0:01.85
+python concatenate_videos.py, Runtime: 0:01.17
+
+---------- Wed Mar 17 10:37:45 CDT 2021 ----------
+python create_videos.py, Runtime: 0:01.85
+python concatenate_videos.py, Runtime: 0:01.15
+
+---------- Wed Mar 17 10:44:44 CDT 2021 ----------
+python create_videos.py, Runtime: 0:01.87
+python concatenate_videos.py, Runtime: 0:01.17
+
+---------- Wed Mar 17 12:04:48 CDT 2021 ----------
+python create_videos.py, Runtime: 0:13.53
+python concatenate_videos.py, Runtime: 0:17.45
+
+---------- Wed Mar 17 12:20:30 CDT 2021 ----------
+python create_videos.py, Runtime: 0:04.51
+python concatenate_videos.py, Runtime: 0:16.81
+

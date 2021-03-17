@@ -1,6 +1,9 @@
 import time
 from datetime import datetime, timedelta
 
+def getHash():
+    return hex(hash(datetime.now())).split('x')[1]
+
 def parseTimeFromFolder(folder):
     folder_parts = folder.split('/')
     year, month, day, hour = None, None, None, None

@@ -112,7 +112,7 @@ def make_video(videoQueue):
         else:
             tmp, container, pathBuilder = msg
             try:
-                os.system(f'ffmpeg -r 25 -f concat -safe 0 -i {tmp} -c:v libx264 -crf 18 -vf fps=25 ./{pathBuilder}/{int(time.mktime(datetime.now().timetuple()))}.mp4')
+                os.system(f'ffmpeg -r 30 -f concat -safe 0 -i {tmp} -c:v libx264 -b:v 10M -maxrate 10M -bufsize 10M -vf fps=30,scale=1920:-1 ./{pathBuilder}/{int(time.mktime(datetime.now().timetuple()))}.mp4')
             finally:
                 os.remove(f'{tmp}')
                 shutil.rmtree(container)
