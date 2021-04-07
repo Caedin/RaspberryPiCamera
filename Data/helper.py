@@ -14,26 +14,15 @@ def parseTimeFromFolder(folder):
             numerical_values.append(int(p))
         except:
             continue
+
     if len(numerical_values) > 0:
-        numerical_values[-1] += 1
-        for n in numerical_values:
-            if year == None:
-                year = n
-            elif month == None:
-                if n > 12:
-                    year += 1
-                    n = 0
-                month = n
-            elif day == None:
-                if n > 31:
-                    month += 1
-                    n = 0
-                day = n
-            elif hour == None:
-                if n > 23:
-                    day += 1
-                    n = 0
-                hour = n
+        year = numerical_values[0]
+    if len(numerical_values) > 1:
+        month = numerical_values[1]
+    if len(numerical_values) > 2:
+        day = numerical_values[2]
+    if len(numerical_values) > 3:
+        hour = numerical_values[3]
 
     try:
         date = datetime(year = year or 2050, month = month or 1, day = day or 1, hour = hour or 0)
@@ -42,3 +31,15 @@ def parseTimeFromFolder(folder):
         raise 
 
     return date
+
+def test_time_parse():
+    import os
+    for directory, subdirectory, filenames in os.walk('./Photos'):
+        print(directory, end='\t')
+        if directory == './Photos':
+            continue
+        date = parseTimeFromFolder(directory)
+        print(date)
+
+if __name__ == '__main__':
+    test_time_parse()

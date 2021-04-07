@@ -127,3 +127,223 @@ python concatenate_videos.py, Runtime: 0:17.45
 python create_videos.py, Runtime: 0:04.51
 python concatenate_videos.py, Runtime: 0:16.81
 
+---------- Wed Mar 17 13:14:21 CDT 2021 ----------
+python create_videos.py, Runtime: 0:08.35
+python concatenate_videos.py, Runtime: 0:17.76
+
+---------- Wed Mar 17 16:07:53 CDT 2021 ----------
+python create_videos.py, Runtime: 0:20.88
+python concatenate_videos.py, Runtime: 0:21.28
+
+---------- Wed Mar 17 16:32:05 CDT 2021 ----------
+python create_videos.py, Runtime: 0:01.89
+python concatenate_videos.py, Runtime: 0:01.18
+
+---------- Wed Mar 17 17:06:18 CDT 2021 ----------
+python create_videos.py, Runtime: 0:09.18
+python concatenate_videos.py, Runtime: 0:22.39
+
+---------- Wed Mar 17 20:32:11 CDT 2021 ----------
+python create_videos.py, Runtime: 0:18.73
+python concatenate_videos.py, Runtime: 0:26.72
+
+---------- Thu Mar 18 00:21:58 CDT 2021 ----------
+python create_videos.py, Runtime: 0:22.33
+python concatenate_videos.py, Runtime: 3:42.34
+
+---------- Thu Mar 18 09:44:32 CDT 2021 ----------
+python create_videos.py, Runtime: 0:46.84
+python concatenate_videos.py, Runtime: 0:14.77
+
+---------- Thu Mar 18 12:01:08 CDT 2021 ----------
+python create_videos.py, Runtime: 0:09.20
+python concatenate_videos.py, Runtime: 0:16.88
+
+---------- Thu Mar 18 13:48:13 CDT 2021 ----------
+python create_videos.py, Runtime: 0:01.98
+python concatenate_videos.py, Runtime: 0:01.30
+
+---------- Thu Mar 18 17:34:21 CDT 2021 ----------
+python create_videos.py, Runtime: 0:20.19
+python concatenate_videos.py, Runtime: 0:20.36
+
+---------- Thu Mar 18 18:24:00 CDT 2021 ----------
+python create_videos.py, Runtime: 0:08.37
+python concatenate_videos.py, Runtime: 0:21.68
+
+---------- Fri Mar 19 09:30:33 CDT 2021 ----------
+Command exited with non-zero status 1
+python create_videos.py, Runtime: 0:00.81
+python concatenate_videos.py, Runtime: 4:12.55
+
+---------- Fri Mar 19 11:46:04 CDT 2021 ----------
+Command exited with non-zero status 1
+python create_videos.py, Runtime: 0:00.30
+python concatenate_videos.py, Runtime: 0:01.29
+
+---------- Fri Mar 19 11:47:07 CDT 2021 ----------
+python create_videos.py, Runtime: 1:28.72
+python concatenate_videos.py, Runtime: 0:18.01
+
+---------- Fri Mar 19 14:36:44 CDT 2021 ----------
+python create_videos.py, Runtime: 0:22.45
+python concatenate_videos.py, Runtime: 0:22.97
+
+---------- Fri Mar 19 22:57:50 CDT 2021 ----------
+python create_videos.py, Runtime: 0:42.45
+python concatenate_videos.py, Runtime: 0:31.07
+
+---------- Sat Mar 20 11:17:31 CDT 2021 ----------
+python create_videos.py, Runtime: 1:18.11
+python concatenate_videos.py, Runtime: 6:52.86
+
+---------- Sat Mar 20 11:29:35 CDT 2021 ----------
+python create_videos.py, Runtime: 0:26.57
+python concatenate_videos.py, Runtime: 1:05.20
+
+---------- Sat Mar 20 11:31:13 CDT 2021 ----------
+python create_videos.py, Runtime: 0:03.26
+python concatenate_videos.py, Runtime: 6:32.82
+
+---------- Sat Mar 20 14:01:35 CDT 2021 ----------
+python create_videos.py, Runtime: 0:23.83
+python concatenate_videos.py, Runtime: 0:28.38
+
+---------- Sun Mar 21 15:06:22 CDT 2021 ----------
+python create_videos.py, Runtime: 2:23.26
+python concatenate_videos.py, Runtime: 7:04.45
+
+---------- Sun Mar 21 16:14:30 CDT 2021 ----------
+python create_videos.py, Runtime: 0:02.43
+python concatenate_videos.py, Runtime: 6:31.77
+
+---------- Mon Mar 22 09:33:55 CDT 2021 ----------
+python create_videos.py, Runtime: 0:03.40
+python concatenate_videos.py, Runtime: 5:42.77
+
+---------- Mon Mar 22 14:21:06 CDT 2021 ----------
+python create_videos.py, Runtime: 0:17.25
+python concatenate_videos.py, Runtime: 0:07.22
+
+---------- Mon Mar 22 17:20:34 CDT 2021 ----------
+python create_videos.py, Runtime: 0:25.40
+python concatenate_videos.py, Runtime: 0:14.81
+
+---------- Mon Mar 22 21:45:12 CDT 2021 ----------
+python create_videos.py, Runtime: 0:26.11
+python concatenate_videos.py, Runtime: 0:18.07
+
+---------- Tue Mar 23 15:38:41 CDT 2021 ----------
+python create_videos.py, Runtime: 2:02.04
+python concatenate_videos.py, Runtime: 7:28.81
+
+---------- Wed Mar 24 11:56:45 CDT 2021 ----------
+python create_videos.py, Runtime: 2:28.10
+python concatenate_videos.py, Runtime: 10:46.57
+
+---------- Wed Mar 24 14:29:55 CDT 2021 ----------
+python create_videos.py, Runtime: 0:31.10
+python concatenate_videos.py, Runtime: 0:29.57
+
+---------- Wed Mar 24 19:53:07 CDT 2021 ----------
+python create_videos.py, Runtime: 0:37.38
+python concatenate_videos.py, Runtime: 16:13.14
+
+---------- Fri Mar 26 10:02:59 CDT 2021 ----------
+python create_videos.py, Runtime: 3:52.18
+python concatenate_videos.py, Runtime: 8:40.20
+
+---------- Sun Mar 28 20:08:50 CDT 2021 ----------
+python create_videos.py, Runtime: 0:30.11
+python concatenate_videos.py, Runtime: 8:46.82
+
+---------- Mon Mar 29 15:01:32 CDT 2021 ----------
+python create_videos.py, Runtime: 2:12.77
+python concatenate_videos.py, Runtime: 10:19.07
+
+---------- Tue Mar 30 15:26:55 CDT 2021 ----------
+python create_videos.py, Runtime: 3:49.94
+python concatenate_videos.py, Runtime: 13:06.88
+
+---------- Tue Mar 30 19:01:46 CDT 2021 ----------
+python create_videos.py, Runtime: 0:33.93
+python concatenate_videos.py, Runtime: 0:35.24
+
+---------- Wed Mar 31 10:38:10 CDT 2021 ----------
+python create_videos.py, Runtime: 2:09.27
+python concatenate_videos.py, Runtime: 13:59.22
+
+---------- Thu Apr 1 13:03:52 CDT 2021 ----------
+Command exited with non-zero status 1
+python create_videos.py, Runtime: 2:09.22
+python concatenate_videos.py, Runtime: 0:29.86
+
+---------- Thu Apr 1 23:23:46 CDT 2021 ----------
+Command exited with non-zero status 1
+python create_videos.py, Runtime: 0:06.93
+python concatenate_videos.py, Runtime: 0:04.14
+
+---------- Thu Apr 1 23:24:10 CDT 2021 ----------
+Command exited with non-zero status 1
+python create_videos.py, Runtime: 0:05.24
+python concatenate_videos.py, Runtime: 0:03.89
+
+---------- Thu Apr 1 23:24:39 CDT 2021 ----------
+Command exited with non-zero status 1
+python create_videos.py, Runtime: 0:05.23
+python concatenate_videos.py, Runtime: 0:03.86
+
+---------- Thu Apr 1 23:25:09 CDT 2021 ----------
+Command exited with non-zero status 1
+python create_videos.py, Runtime: 0:05.22
+python concatenate_videos.py, Runtime: 12:01.51
+
+---------- Mon Apr 5 18:45:28 CDT 2021 ----------
+Command exited with non-zero status 1
+python create_videos.py, Runtime: 0:05.36
+python concatenate_videos.py, Runtime: 0:03.67
+
+---------- Mon Apr 5 18:45:55 CDT 2021 ----------
+Command exited with non-zero status 1
+python create_videos.py, Runtime: 0:04.84
+python concatenate_videos.py, Runtime: 0:42.97
+
+---------- Mon Apr 5 23:17:06 CDT 2021 ----------
+Command exited with non-zero status 1
+python create_videos.py, Runtime: 0:05.07
+python concatenate_videos.py, Runtime: 0:03.21
+
+---------- Tue Apr 6 09:28:34 CDT 2021 ----------
+python create_videos.py, Runtime: 1:15.75
+Command exited with non-zero status 1
+python concatenate_videos.py, Runtime: 0:14.26
+
+---------- Tue Apr 6 09:30:47 CDT 2021 ----------
+python create_videos.py, Runtime: 0:05.39
+python concatenate_videos.py, Runtime: 0:05.15
+
+---------- Tue Apr 6 10:05:29 CDT 2021 ----------
+python create_videos.py, Runtime: 0:09.38
+python concatenate_videos.py, Runtime: 1:38.61
+
+---------- Tue Apr 6 14:38:47 CDT 2021 ----------
+Command exited with non-zero status 1
+python create_videos.py, Runtime: 0:28.69
+python concatenate_videos.py, Runtime: 0:04.97
+
+---------- Tue Apr 6 14:46:17 CDT 2021 ----------
+python create_videos.py, Runtime: 0:12.51
+python concatenate_videos.py, Runtime: 0:04.53
+
+---------- Tue Apr 6 15:23:53 CDT 2021 ----------
+python create_videos.py, Runtime: 0:09.45
+python concatenate_videos.py, Runtime: 0:04.51
+
+---------- Wed Apr 7 00:08:54 CDT 2021 ----------
+python create_videos.py, Runtime: 1:51.69
+python concatenate_videos.py, Runtime: 0:08.59
+
+---------- Wed Apr 7 10:02:34 CDT 2021 ----------
+python create_videos.py, Runtime: 1:08.29
+python concatenate_videos.py, Runtime: 0:14.67
+
