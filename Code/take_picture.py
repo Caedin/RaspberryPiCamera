@@ -128,6 +128,10 @@ try:
                     shutterspeed /= 1.25
                 pic, avg_brightness = retake_pic(pic, shutterspeed)
 
+                # weird bug were sometimes the shutterspeed runs away to infinity and the program never finishes. This will cap it to a 10 second capture.
+                if shutterspeed > 1000000:
+                    break
+
             saveShutter(shutterspeed)
             send_picture(imageFolder)
 
