@@ -347,3 +347,125 @@ python concatenate_videos.py, Runtime: 0:08.59
 python create_videos.py, Runtime: 1:08.29
 python concatenate_videos.py, Runtime: 0:14.67
 
+---------- Wed Apr 7 12:02:19 CDT 2021 ----------
+python create_videos.py, Runtime: 0:19.89
+python concatenate_videos.py, Runtime: 0:06.18
+
+---------- Thu Apr 8 10:12:48 CDT 2021 ----------
+python create_videos.py, Runtime: 3:21.63
+python concatenate_videos.py, Runtime: 0:22.69
+
+---------- Thu Apr 8 10:21:30 CDT 2021 ----------
+python create_videos.py, Runtime: 0:06.67
+python concatenate_videos.py, Runtime: 3:19.44
+
+---------- Fri Apr 9 01:42:47 CDT 2021 ----------
+python create_videos.py, Runtime: 1:27.86
+python concatenate_videos.py, Runtime: 0:09.86
+
+---------- Sat Apr 10 10:06:02 CDT 2021 ----------
+Command exited with non-zero status 1
+python create_videos.py, Runtime: 1:14.71
+python concatenate_videos.py, Runtime: 0:04.68
+
+---------- Sat Apr 10 12:42:58 CDT 2021 ----------
+Command exited with non-zero status 1
+python create_videos.py, Runtime: 0:11.98
+python concatenate_videos.py, Runtime: 0:04.56
+
+---------- Sat Apr 10 12:45:01 CDT 2021 ----------
+---------- Sun Apr 11 12:53:29 CDT 2021 ----------
+python create_videos.py, Runtime: 3:13.26
+python concatenate_videos.py, Runtime: 0:29.83
+
+---------- Tue Apr 13 15:34:14 CDT 2021 ----------
+python create_videos.py, Runtime: 3:11.25
+python concatenate_videos.py, Runtime: 0:23.96
+
+---------- Tue Apr 13 15:45:33 CDT 2021 ----------
+python create_videos.py, Runtime: 0:05.08
+python concatenate_videos.py, Runtime: 2:35.39
+
+---------- Tue Apr 13 17:25:07 CDT 2021 ----------
+python create_videos.py, Runtime: 1:08:05
+python concatenate_videos.py, Runtime: 27:52.28
+
+---------- Tue Apr 13 19:36:13 CDT 2021 ----------
+python create_videos.py, Runtime: 0:16.30
+python concatenate_videos.py, Runtime: 0:03.02
+
+---------- Tue Apr 13 23:22:32 CDT 2021 ----------
+python create_videos.py, Runtime: 0:00.56
+python concatenate_videos.py, Runtime: 0:00.06
+
+---------- Tue Apr 13 23:35:56 CDT 2021 ----------
+python create_videos.py, Runtime: 0:02.48
+python concatenate_videos.py, Runtime: 0:00.52
+
+---------- Tue Apr 13 23:36:51 CDT 2021 ----------
+python create_videos.py, Runtime: 0:00.71
+python concatenate_videos.py, Runtime: 0:00.08
+
+---------- Wed Apr 14 10:14:53 CDT 2021 ----------
+python create_videos.py, Runtime: 1:24.57
+python concatenate_videos.py, Runtime: 0:29.71
+
+---------- Wed Apr 14 14:25:46 CDT 2021 ----------
+python create_videos.py, Runtime: 0:20.64
+python concatenate_videos.py, Runtime: 0:00.78
+
+---------- Wed Apr 14 18:09:10 CDT 2021 ----------
+python create_videos.py, Runtime: 0:22.77
+python concatenate_videos.py, Runtime: 0:14.38
+
+---------- Thu Apr 15 11:05:40 CDT 2021 ----------
+python create_videos.py, Runtime: 1:43.16
+python concatenate_videos.py, Runtime: 0:10.80
+
+---------- Thu Apr 15 11:18:00 CDT 2021 ----------
+python create_videos.py, Runtime: 0:00.89
+python concatenate_videos.py, Runtime: 0:54.94
+
+---------- Fri Apr 16 13:48:37 CDT 2021 ----------
+python create_videos.py, Runtime: 3:00.69
+python concatenate_videos.py, Runtime: 0:14.36
+
+---------- Fri Apr 16 13:55:03 CDT 2021 ----------
+python create_videos.py, Runtime: 0:01.20
+python concatenate_videos.py, Runtime: 0:47.04
+
+---------- Sat Apr 17 00:22:45 CDT 2021 ----------
+python create_videos.py, Runtime: 1:00.30
+python concatenate_videos.py, Runtime: 1:21.05
+
+---------- Sat Apr 17 21:40:47 CDT 2021 ----------
+python create_videos.py, Runtime: 1:54.24
+python concatenate_videos.py, Runtime: 0:18.00
+
+---------- Sat Apr 17 21:45:56 CDT 2021 ----------
+python create_videos.py, Runtime: 0:01.32
+python concatenate_videos.py, Runtime: 1:45.72
+
+---------- Sun Apr 18 14:30:59 CDT 2021 ----------
+python create_videos.py, Runtime: 1:32.82
+python concatenate_videos.py, Runtime: 0:13.87
+
+---------- Sun Apr 18 15:16:46 CDT 2021 ----------
+python create_videos.py, Runtime: 0:04.16
+python concatenate_videos.py, Runtime: 1:34.84
+
+---------- Tue Apr 20 13:18:10 CDT 2021 ----------
+Command terminated by signal 2
+python create_videos.py, Runtime: 0:40.32
+---------- Tue Apr 20 13:22:12 CDT 2021 ----------
+python create_videos.py, Runtime: 4:27.46
+python concatenate_videos.py, Runtime: 2:11.49
+
+---------- Wed Apr 21 15:30:04 CDT 2021 ----------
+python create_videos.py, Runtime: 2:56.07
+python concatenate_videos.py, Runtime: 0:17.58
+
+---------- Sat Apr 24 01:57:25 CDT 2021 ----------
+python create_videos.py, Runtime: 3:18.85
+python concatenate_videos.py, Runtime: 0:21.75
+
