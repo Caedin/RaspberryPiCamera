@@ -94,11 +94,11 @@ def merge_video(folder = './Videos', overwrite = 'n', derivatives = False):
                         os.system(f'ffmpeg -{overwrite} -i {folder}/merged.mp4 -c:v libx264 -b:v 10M -maxrate 10M -bufsize 10M -filter:v "setpts=(1/16)*PTS" {folder}/derivatives/merged-16x.mp4')
 
                         # Plants were too big for crop after end of March
-                        if folder_end_time < datetime(year = 2021, month = 3, day = 1):
-                            os.system(f'ffmpeg -{overwrite} -i {folder}/merged.mp4 -c:v libx264 -b:v 10M -maxrate 10M -bufsize 10M -vf crop=1200:800:450:500 {folder}/derivatives/merged-cropped.mp4')
-                            os.system(f'ffmpeg -{overwrite} -i {folder}/derivatives/merged-4x.mp4 -c:v libx264 -b:v 10M -maxrate 10M -bufsize 10M -vf crop=1200:800:450:500 {folder}/derivatives/merged-cropped-4x.mp4')
-                            os.system(f'ffmpeg -{overwrite} -i {folder}/derivatives/merged-8x.mp4 -c:v libx264 -b:v 10M -maxrate 10M -bufsize 10M -vf crop=1200:800:450:500 {folder}/derivatives/merged-cropped-8x.mp4')
-                            os.system(f'ffmpeg -{overwrite} -i {folder}/derivatives/merged-16x.mp4 -c:v libx264 -b:v 10M -maxrate 10M -bufsize 10M -vf crop=1200:800:450:500 {folder}/derivatives/merged-cropped-16x.mp4')
+                        #if folder_end_time < datetime(year = 2021, month = 3, day = 1):
+                        #    os.system(f'ffmpeg -{overwrite} -i {folder}/merged.mp4 -c:v libx264 -b:v 10M -maxrate 10M -bufsize 10M -vf crop=1200:800:450:500 {folder}/derivatives/merged-cropped.mp4')
+                        #    os.system(f'ffmpeg -{overwrite} -i {folder}/derivatives/merged-4x.mp4 -c:v libx264 -b:v 10M -maxrate 10M -bufsize 10M -vf crop=1200:800:450:500 {folder}/derivatives/merged-cropped-4x.mp4')
+                        #    os.system(f'ffmpeg -{overwrite} -i {folder}/derivatives/merged-8x.mp4 -c:v libx264 -b:v 10M -maxrate 10M -bufsize 10M -vf crop=1200:800:450:500 {folder}/derivatives/merged-cropped-8x.mp4')
+                        #    os.system(f'ffmpeg -{overwrite} -i {folder}/derivatives/merged-16x.mp4 -c:v libx264 -b:v 10M -maxrate 10M -bufsize 10M -vf crop=1200:800:450:500 {folder}/derivatives/merged-cropped-16x.mp4')
                 finally:
                     os.remove(tmp)
 
